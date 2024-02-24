@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 90%);  
+    transition: background-color 300ms;
+}
+
+.umumiy{
+    position: relative;
+    width: 70%;
+    height: 80vh;
+    background-color: rgb(245, 240, 240);
+    border-radius: 20px;
+    box-shadow: 0 0 3px hsl(0, 0%, 100%);
+}
+
+
+.green-blur{
+    background-color: rgb(31, 211, 31);
+    width: 20%;
+    position: absolute;
+    top: 30vh;
+    left: 15vh;
+    height: 30vh;
+    filter: blur(80px);
+    z-index: 0.1;
+}
+
+.purple-blur{
+    background-color: blueviolet;
+    width: 20%;
+    position: absolute;
+    z-index: 0.1;
+    top:20vh;
+    left: 30vh;
+    height: 30vh;
+    filter: blur(80px);
+}
+
+.row{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+.col-md{
+    flex-basis: 45%;
+    display: flex;
+    z-index: 1;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h1-txt{
+    color: rebeccapurple;
+    z-index: 1;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.remove-txt{
+    padding-top: 50px;
+    display: flex;
+    align-items: start;
+}
+
+.br-1{
+    margin-top: 6px;
+    width: 15px;
+    margin-right: 6px;
+    height: 35px;
+    background: purple;
+    border-radius: 20px;
+}
+
+.br-2{
+    margin-top: 6px;
+    width: 15px;
+    margin-right: 6px;
+    height: 35px;
+    background: rgb(236, 12, 236);
+    border-radius: 20px;
+}
+
+
+.br-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.br-row .br-11{
+    margin-top: 6px;
+    width: 10px;
+    margin-right: 10px;
+    height: 15px;
+    background: purple;
+    border-radius: 20px;
+}
+.br-row .br-12{
+    margin-top: 5px;
+    width: 10px;
+    margin-right: 10px;
+    height: 15px;
+    background: purple;
+    border-radius: 20px;
+}
+
+.column{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+.column .h22-txt{
+    font-size: 18px;
+    z-index: 1;
+    color: white;
+    font-weight: 600;
+}
+
+.column .lorem-txt{
+    padding-top: 10px;
+    font-size: 13px;
+    color: rgb(240, 231, 231);
+}
+
+.access-txt{
+    display: flex;
+    padding-top: 30px;
+    align-items: start;
+
+}
+
+.white-ok{
+    width: 80%;
+    height: 60vh;
+    background: white;
+    flex-direction: column;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px 30px;
+    align-items: center;
+    justify-content: start;
+}
+.white-ok .create-txt{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top:30px;
+}
+
+.white-ok .sign-in-txt{
+    color: grey;
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.white-ok input{
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(170, 169, 169);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.white-ok .by-teams{
+    text-align: center;
+    color: rgb(170, 168, 168);
+    font-weight: 600;
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.white-ok .btn-sign{
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(7, 226, 7);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
